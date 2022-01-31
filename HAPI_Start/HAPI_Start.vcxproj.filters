@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\World System">
+      <UniqueIdentifier>{4c6b6472-37df-44ed-acba-98078ea218b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World System\Entity%27s">
+      <UniqueIdentifier>{4f09e8bf-4d83-4412-ab36-a0875026490d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Visulisation System">
+      <UniqueIdentifier>{2f0e9103-5fb2-431c-8439-acd111fd051e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files\World System</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\World System\Entity%27s</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity_Player.cpp">
+      <Filter>Source Files\World System\Entity%27s</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files\Visulisation System</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\Visulisation System</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity_Enemy.cpp">
+      <Filter>Source Files\World System\Entity%27s</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity_Arrow.cpp">
+      <Filter>Source Files\World System\Entity%27s</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Source Files\Visulisation System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="World.h">
+      <Filter>Source Files\World System</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Source Files\World System\Entity%27s</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity_Player.h">
+      <Filter>Source Files\World System\Entity%27s</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Source Files\Visulisation System</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Source Files\Visulisation System</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity_Enemy.h">
+      <Filter>Source Files\World System\Entity%27s</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity_Arrow.h">
+      <Filter>Source Files\World System\Entity%27s</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Source Files\Visulisation System</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
